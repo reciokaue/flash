@@ -19,10 +19,10 @@ export default function Home() {
         <Button size="icon" variant="ghost" className="p-2">
           <AlignJustify />
         </Button>
-        <div className="ml-2 mr-6 flex w-full gap-2">
+        <Link href="/" className="ml-2 mr-6 flex w-full gap-2">
           <Diamond />
           <h1 className="font-bold text-primary">FLASH</h1>
-        </div>
+        </Link>
         <span className="flex aspect-square h-8 w-8 items-center justify-center rounded-full bg-primary font-semibold text-secondary">
           K
         </span>

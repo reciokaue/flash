@@ -8,6 +8,7 @@ import {
   ChevronRight,
   Diamond,
 } from 'lucide-react'
+import Link from 'next/link'
 
 import { TextEditor } from '@/components/custom/text-editor'
 import { Button } from '@/components/ui/button'
@@ -24,10 +25,10 @@ export default function DeckPage({ params }: DeckPageProps) {
         <Button size="icon" variant="ghost" className="p-2">
           <AlignJustify />
         </Button>
-        <div className="ml-2 mr-6 flex w-full gap-2">
+        <Link href="/" className="ml-2 mr-6 flex w-full gap-2">
           <Diamond />
           <h1 className="font-bold text-primary">Deck sem titulo</h1>
-        </div>
+        </Link>
         <div className="flex items-center gap-2">
           <Button size="icon" variant="ghost">
             <ChevronLeft />
